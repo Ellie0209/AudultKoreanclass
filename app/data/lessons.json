@@ -1,0 +1,375 @@
+[
+  {
+    "id": 1,
+    "title": "인사와 자기소개",
+    "titleEn": "Greetings & Self-Introduction",
+    "level": "초급 1",
+    "objectives": [
+      "기본 인사말을 상황에 맞게 사용할 수 있다.",
+      "\"저는 ~입니다/이에요\" 문형으로 자기소개를 할 수 있다.",
+      "존댓말의 기본 개념을 이해한다."
+    ],
+    "vocab": [
+      { "ko": "안녕하세요", "romanization": "annyeonghaseyo", "en": "Hello" },
+      { "ko": "안녕히 가세요", "romanization": "annyeonghi gaseyo", "en": "Goodbye (to person leaving)" },
+      { "ko": "안녕히 계세요", "romanization": "annyeonghi gyeseyo", "en": "Goodbye (to person staying)" },
+      { "ko": "감사합니다", "romanization": "gamsahamnida", "en": "Thank you" },
+      { "ko": "죄송합니다", "romanization": "joesonghamnida", "en": "I'm sorry" },
+      { "ko": "이름", "romanization": "ireum", "en": "Name" },
+      { "ko": "저는", "romanization": "jeoneun", "en": "I (topic marker)" },
+      { "ko": "만나서 반갑습니다", "romanization": "mannaseo bangapseumnida", "en": "Nice to meet you" }
+    ],
+    "grammar": [
+      {
+        "pattern": "N은/는 N입니다",
+        "explanation": "명사에 '은/는'을 붙여 주제를 나타내고, 서술어 '입니다'로 격식체 문장을 만듭니다.",
+        "examples": [
+          { "ko": "저는 마이클입니다.", "en": "I am Michael." },
+          { "ko": "저는 학생입니다.", "en": "I am a student." }
+        ]
+      },
+      {
+        "pattern": "N이에요/예요",
+        "explanation": "'입니다'보다 부드러운 존댓말체입니다. 받침이 있으면 '이에요', 없으면 '예요'를 씁니다.",
+        "examples": [
+          { "ko": "저는 마이클이에요.", "en": "I am Michael. (softer)" },
+          { "ko": "저는 지민이에요.", "en": "I am Jimin." }
+        ]
+      }
+    ],
+    "dialogue": [
+      { "speaker": "A", "ko": "안녕하세요. 저는 지민이에요.", "en": "Hello. I'm Jimin." },
+      { "speaker": "B", "ko": "안녕하세요. 저는 마이클이에요. 만나서 반갑습니다.", "en": "Hello. I'm Michael. Nice to meet you." }
+    ],
+    "quiz": [
+      {
+        "type": "mcq",
+        "question": "'안녕하세요'의 뜻은 무엇입니까?",
+        "options": ["Goodbye", "Hello", "Thank you", "Sorry"],
+        "answer": "Hello"
+      },
+      {
+        "type": "mcq",
+        "question": "빈칸에 알맞은 것은? 저는 마이클____.",
+        "options": ["입니다", "습니다", "합니다", "됩니다"],
+        "answer": "입니다"
+      },
+      {
+        "type": "mcq",
+        "question": "헤어질 때 (내가 떠날 때) 사용하는 인사말은?",
+        "options": ["안녕히 계세요", "안녕히 가세요", "감사합니다", "죄송합니다"],
+        "answer": "안녕히 가세요"
+      },
+      {
+        "type": "fill",
+        "question": "만나서 ___________. (Nice to meet you의 뒷부분)",
+        "answer": "반갑습니다"
+      },
+      {
+        "type": "mcq",
+        "question": "'저는 지민이에요'에서 '이에요'를 쓰는 이유는?",
+        "options": ["이름에 받침이 있어서", "이름이 짧아서", "질문이라서", "과거형이라서"],
+        "answer": "이름에 받침이 있어서"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "숫자와 시간",
+    "titleEn": "Numbers & Time",
+    "level": "초급 1",
+    "objectives": [
+      "한자어 수사와 고유어 수사를 구분하여 사용할 수 있다.",
+      "시간을 묻고 답할 수 있다 (~시 ~분).",
+      "전화번호, 나이 등 실생활 숫자 표현을 말할 수 있다."
+    ],
+    "vocab": [
+      { "ko": "하나, 둘, 셋", "romanization": "hana, dul, set", "en": "one, two, three (native)" },
+      { "ko": "일, 이, 삼", "romanization": "il, i, sam", "en": "one, two, three (Sino-Korean)" },
+      { "ko": "시", "romanization": "si", "en": "o'clock (hour)" },
+      { "ko": "분", "romanization": "bun", "en": "minute" },
+      { "ko": "지금 몇 시예요?", "romanization": "jigeum myeot siyeyo?", "en": "What time is it now?" },
+      { "ko": "오전", "romanization": "ojeon", "en": "AM" },
+      { "ko": "오후", "romanization": "ohu", "en": "PM" }
+    ],
+    "grammar": [
+      {
+        "pattern": "고유어 수사 + 시",
+        "explanation": "시간을 말할 때 '시' 앞에는 고유어 수사(한 시, 두 시, 세 시...)를 사용합니다.",
+        "examples": [
+          { "ko": "한 시예요.", "en": "It's one o'clock." },
+          { "ko": "다섯 시예요.", "en": "It's five o'clock." }
+        ]
+      },
+      {
+        "pattern": "한자어 수사 + 분",
+        "explanation": "분을 말할 때는 '분' 앞에 한자어 수사(일, 이, 삼...)를 사용합니다.",
+        "examples": [
+          { "ko": "두 시 삼십 분이에요.", "en": "It's 2:30." },
+          { "ko": "네 시 십오 분이에요.", "en": "It's 4:15." }
+        ]
+      }
+    ],
+    "dialogue": [
+      { "speaker": "A", "ko": "실례합니다. 지금 몇 시예요?", "en": "Excuse me. What time is it now?" },
+      { "speaker": "B", "ko": "네 시 십오 분이에요.", "en": "It's 4:15." },
+      { "speaker": "A", "ko": "감사합니다.", "en": "Thank you." }
+    ],
+    "quiz": [
+      {
+        "type": "mcq",
+        "question": "시간을 말할 때 '시' 앞에 오는 수사는?",
+        "options": ["한자어 수사", "고유어 수사", "둘 다 가능", "숫자를 쓰지 않는다"],
+        "answer": "고유어 수사"
+      },
+      {
+        "type": "mcq",
+        "question": "'두 시 삼십 분'의 올바른 뜻은?",
+        "options": ["1:30", "2:30", "2:13", "12:30"],
+        "answer": "2:30"
+      },
+      {
+        "type": "fill",
+        "question": "지금 몇 ___예요? (시간을 물을 때)",
+        "answer": "시"
+      },
+      {
+        "type": "mcq",
+        "question": "'분' 앞에 사용하는 수사 체계는?",
+        "options": ["고유어 수사", "한자어 수사", "혼합형", "없음"],
+        "answer": "한자어 수사"
+      },
+      {
+        "type": "mcq",
+        "question": "오후 4시는 영어로 몇 시입니까?",
+        "options": ["4 AM", "4 PM", "10 AM", "10 PM"],
+        "answer": "4 PM"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "쇼핑과 가격 묻기",
+    "titleEn": "Shopping & Asking Prices",
+    "level": "초급 1",
+    "objectives": [
+      "지시대명사(이거/그거/저거)를 사용할 수 있다.",
+      "가격을 묻고 답할 수 있다 (얼마예요?).",
+      "~주세요 문형으로 물건을 요청할 수 있다."
+    ],
+    "vocab": [
+      { "ko": "이거", "romanization": "igeo", "en": "this (thing)" },
+      { "ko": "그거", "romanization": "geugeo", "en": "that (thing, near listener)" },
+      { "ko": "저거", "romanization": "jeogeo", "en": "that (thing, far)" },
+      { "ko": "얼마예요?", "romanization": "eolmayeyo?", "en": "How much is it?" },
+      { "ko": "주세요", "romanization": "juseyo", "en": "Please give me" },
+      { "ko": "원", "romanization": "won", "en": "Korean won (currency)" },
+      { "ko": "싸다", "romanization": "ssada", "en": "to be cheap" },
+      { "ko": "비싸다", "romanization": "bissada", "en": "to be expensive" }
+    ],
+    "grammar": [
+      {
+        "pattern": "이거 얼마예요?",
+        "explanation": "지시대명사 뒤에 '얼마예요?'를 붙여 가격을 묻습니다.",
+        "examples": [
+          { "ko": "이거 얼마예요?", "en": "How much is this?" },
+          { "ko": "저거 얼마예요?", "en": "How much is that (over there)?" }
+        ]
+      },
+      {
+        "pattern": "N 주세요",
+        "explanation": "원하는 물건이나 개수를 말한 뒤 '주세요'를 붙여 정중하게 요청합니다.",
+        "examples": [
+          { "ko": "이거 두 개 주세요.", "en": "Please give me two of these." },
+          { "ko": "물 한 병 주세요.", "en": "Please give me a bottle of water." }
+        ]
+      }
+    ],
+    "dialogue": [
+      { "speaker": "A", "ko": "이거 얼마예요?", "en": "How much is this?" },
+      { "speaker": "B", "ko": "그거 만 원이에요.", "en": "That's 10,000 won." },
+      { "speaker": "A", "ko": "두 개 주세요.", "en": "Please give me two." },
+      { "speaker": "B", "ko": "네, 이만 원입니다.", "en": "Sure, that's 20,000 won." }
+    ],
+    "quiz": [
+      {
+        "type": "mcq",
+        "question": "화자와 가까이 있는 물건을 가리키는 말은?",
+        "options": ["이거", "그거", "저거", "어느거"],
+        "answer": "이거"
+      },
+      {
+        "type": "mcq",
+        "question": "가격을 물을 때 사용하는 표현은?",
+        "options": ["뭐예요?", "얼마예요?", "누구예요?", "어디예요?"],
+        "answer": "얼마예요?"
+      },
+      {
+        "type": "fill",
+        "question": "이거 두 개 ______. (정중하게 요청할 때)",
+        "answer": "주세요"
+      },
+      {
+        "type": "mcq",
+        "question": "한국 화폐 단위는?",
+        "options": ["달러", "엔", "원", "위안"],
+        "answer": "원"
+      },
+      {
+        "type": "mcq",
+        "question": "'비싸다'의 반대말은?",
+        "options": ["작다", "크다", "싸다", "많다"],
+        "answer": "싸다"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "음식 주문하기",
+    "titleEn": "Ordering Food",
+    "level": "초급 2",
+    "objectives": [
+      "식당에서 음식을 주문할 수 있다.",
+      "~ㄹ게요 문형으로 자신의 의사를 표현할 수 있다.",
+      "~고 싶어요 문형으로 희망을 표현할 수 있다."
+    ],
+    "vocab": [
+      { "ko": "김치찌개", "romanization": "gimchijjigae", "en": "Kimchi stew" },
+      { "ko": "비빔밥", "romanization": "bibimbap", "en": "Bibimbap" },
+      { "ko": "불고기", "romanization": "bulgogi", "en": "Bulgogi" },
+      { "ko": "메뉴", "romanization": "menyu", "en": "Menu" },
+      { "ko": "주문하다", "romanization": "jumunhada", "en": "to order" },
+      { "ko": "맛있다", "romanization": "masitda", "en": "to be delicious" },
+      { "ko": "물", "romanization": "mul", "en": "water" }
+    ],
+    "grammar": [
+      {
+        "pattern": "N(으)로 할게요",
+        "explanation": "여러 선택지 중 하나를 결정할 때 사용하는 표현입니다.",
+        "examples": [
+          { "ko": "저는 비빔밥으로 할게요.", "en": "I'll have the bibimbap." },
+          { "ko": "저는 불고기로 할게요.", "en": "I'll have the bulgogi." }
+        ]
+      },
+      {
+        "pattern": "N이/가 먹고 싶어요",
+        "explanation": "먹고 싶은 음식에 대한 희망을 나타내는 표현입니다.",
+        "examples": [
+          { "ko": "김치찌개가 먹고 싶어요.", "en": "I want to eat kimchi stew." },
+          { "ko": "비빔밥이 먹고 싶어요.", "en": "I want to eat bibimbap." }
+        ]
+      }
+    ],
+    "dialogue": [
+      { "speaker": "A", "ko": "어서 오세요. 뭐 드시겠어요?", "en": "Welcome. What would you like?" },
+      { "speaker": "B", "ko": "저는 비빔밥으로 할게요.", "en": "I'll have the bibimbap." },
+      { "speaker": "A", "ko": "음료는요?", "en": "And a drink?" },
+      { "speaker": "B", "ko": "물 주세요.", "en": "Water, please." }
+    ],
+    "quiz": [
+      {
+        "type": "mcq",
+        "question": "'비빔밥으로 할게요'의 뜻은?",
+        "options": ["I don't want bibimbap", "I'll have the bibimbap", "Is this bibimbap?", "I like bibimbap"],
+        "answer": "I'll have the bibimbap"
+      },
+      {
+        "type": "mcq",
+        "question": "먹고 싶은 것을 표현할 때 사용하는 문형은?",
+        "options": ["~고 싶어요", "~ㄹ 거예요", "~았어요", "~는데요"],
+        "answer": "~고 싶어요"
+      },
+      {
+        "type": "fill",
+        "question": "물 ______. (물을 요청할 때)",
+        "answer": "주세요"
+      },
+      {
+        "type": "mcq",
+        "question": "매운 찌개 종류의 한국 음식은?",
+        "options": ["비빔밥", "불고기", "김치찌개", "메뉴"],
+        "answer": "김치찌개"
+      },
+      {
+        "type": "mcq",
+        "question": "'맛있다'의 뜻은?",
+        "options": ["to be spicy", "to be delicious", "to be cheap", "to be full"],
+        "answer": "to be delicious"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "길 묻기와 교통",
+    "titleEn": "Asking Directions & Transportation",
+    "level": "초급 2",
+    "objectives": [
+      "길을 묻고 안내할 수 있다.",
+      "~(으)로 가세요 문형으로 방향을 안내할 수 있다.",
+      "대중교통 관련 기본 표현을 사용할 수 있다."
+    ],
+    "vocab": [
+      { "ko": "여기", "romanization": "yeogi", "en": "here" },
+      { "ko": "저기", "romanization": "jeogi", "en": "there (far)" },
+      { "ko": "오른쪽", "romanization": "oreunjjok", "en": "right side" },
+      { "ko": "왼쪽", "romanization": "oenjjok", "en": "left side" },
+      { "ko": "똑바로 가세요", "romanization": "ttokbaro gaseyo", "en": "Go straight" },
+      { "ko": "지하철역", "romanization": "jihacheollyeok", "en": "Subway station" },
+      { "ko": "버스 정류장", "romanization": "beoseu jeongnyujang", "en": "Bus stop" }
+    ],
+    "grammar": [
+      {
+        "pattern": "N(으)로 가세요",
+        "explanation": "방향이나 경로를 안내할 때 사용하는 표현입니다.",
+        "examples": [
+          { "ko": "오른쪽으로 가세요.", "en": "Go to the right." },
+          { "ko": "이 길로 가세요.", "en": "Go this way." }
+        ]
+      },
+      {
+        "pattern": "N까지 어떻게 가요?",
+        "explanation": "목적지까지 가는 방법을 물을 때 사용하는 표현입니다.",
+        "examples": [
+          { "ko": "지하철역까지 어떻게 가요?", "en": "How do I get to the subway station?" },
+          { "ko": "학교까지 어떻게 가요?", "en": "How do I get to the school?" }
+        ]
+      }
+    ],
+    "dialogue": [
+      { "speaker": "A", "ko": "실례합니다. 지하철역까지 어떻게 가요?", "en": "Excuse me. How do I get to the subway station?" },
+      { "speaker": "B", "ko": "이 길로 똑바로 가세요. 그리고 오른쪽으로 가세요.", "en": "Go straight this way. Then go right." },
+      { "speaker": "A", "ko": "감사합니다.", "en": "Thank you." }
+    ],
+    "quiz": [
+      {
+        "type": "mcq",
+        "question": "목적지까지 가는 방법을 물을 때 사용하는 표현은?",
+        "options": ["얼마예요?", "몇 시예요?", "어떻게 가요?", "뭐예요?"],
+        "answer": "어떻게 가요?"
+      },
+      {
+        "type": "mcq",
+        "question": "'오른쪽'의 반대말은?",
+        "options": ["왼쪽", "위쪽", "아래쪽", "뒤쪽"],
+        "answer": "왼쪽"
+      },
+      {
+        "type": "fill",
+        "question": "이 길로 ________ 가세요. (직진하라는 뜻)",
+        "answer": "똑바로"
+      },
+      {
+        "type": "mcq",
+        "question": "'지하철역'의 뜻은?",
+        "options": ["Bus stop", "Subway station", "Airport", "Taxi stand"],
+        "answer": "Subway station"
+      },
+      {
+        "type": "mcq",
+        "question": "방향을 안내할 때 쓰는 문형은?",
+        "options": ["~고 싶어요", "~(으)로 가세요", "~ㄹ게요", "~습니다만"],
+        "answer": "~(으)로 가세요"
+      }
+    ]
+  }
+]
