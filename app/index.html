@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>생활 한국어 첫걸음 | Survival Korean for Adult Learners</title>
+<meta name="description" content="성인 외국인 학습자를 위한 온라인 한국어 수업 앱" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <div class="brand">
+        <span class="brand-mark">한</span>
+        <div>
+          <h1>생활 한국어 첫걸음</h1>
+          <p class="subtitle">Survival Korean for Adult Learners</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <div class="overall-progress" id="overallProgress" title="전체 진도">
+          <span id="overallProgressLabel">0 / 5 완료</span>
+          <div class="progress-track"><div class="progress-fill" id="overallProgressFill"></div></div>
+        </div>
+        <button class="btn ghost" id="resetProgressBtn" type="button">진도 초기화</button>
+      </div>
+    </header>
+
+    <div class="app-body">
+      <nav class="lesson-list" aria-label="차시 목록">
+        <h2 class="panel-title">차시 목록<span class="panel-title-en">Lessons</span></h2>
+        <ol id="lessonNav"></ol>
+        <a class="lesson-plan-link" href="../lesson-plans/00-course-overview.md" target="_blank" rel="noopener">
+          📘 전체 교육과정 지도안 보기
+        </a>
+      </nav>
+
+      <main class="lesson-main" id="lessonMain">
+        <!-- Rendered by app.js -->
+      </main>
+    </div>
+
+    <footer class="app-footer">
+      <p>© 2026 생활 한국어 첫걸음 · 온라인 한국어 수업 지원 앱 · 발음은 브라우저의 음성 합성(Web Speech API)을 사용합니다.</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
